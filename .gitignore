@@ -1,3 +1,4 @@
 **/Debates
-**/__pycache__
+*pycache*
 **/.ipynb_checkpoints
+/results/*.csv
