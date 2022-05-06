@@ -2,7 +2,34 @@
 
 A module for parsing exported discussion files from https://www.kialo.com/.
 
-### Usage:
+### Downloading a debate:
+
+For instructions on how to download discussions from Kialo see [Exporting a Discussion - Kialo Help Centre](https://support.kialo.com/hc/en-us/articles/115003884449-Exporting-a-Discussion).
+
+If you have the names of the debates, you can also use the export endpoint like this:
+
+
+```python
+import webbrowser
+
+debate_name = "did-the-exodus-really-happen-14445"
+
+url = "https://www.kialo.com/export/" + debate_name + ".txt?download"
+
+# Replace with the path to Google Chrome if not using Mac:
+CHROME_PATH = "open -a /Applications/Google\ Chrome.app %s"
+
+webbrowser.get(CHROME_PATH).open(url)
+```
+
+
+
+
+    True
+
+
+
+### Using the parser:
 
 
 ```python
