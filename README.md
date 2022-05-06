@@ -24,11 +24,6 @@ webbrowser.get(CHROME_PATH).open(url)
 
 
 
-
-    True
-
-
-
 ### Using the parser:
 
 
