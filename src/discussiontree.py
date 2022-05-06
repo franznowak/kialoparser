@@ -39,8 +39,9 @@ class DiscussionTree():
         indices = []
         for claim in self.claims:
             if re.search(search_string, claim, re.IGNORECASE) is not None:
-                index =  re.search(r"^(\d{1,}.)+", claim).group()
-                indices.append(index)
+                index_re =  re.search(r"^(\d{1,}.)+", claim)
+                if index_re is not None:
+                    indices.append(index_re.group())
         
         return indices
 
@@ -56,9 +57,9 @@ class DiscussionTree():
         indices = []
         for claim in self.claims:
             for search_string in search_string_list:
-                if re.search(search_string, claim, re.IGNORECASE) is not None:
-                    index =  re.search(r"^(\d{1,}.)+", claim).group()
-                    indices.append(index)
+                index_re =  re.search(r"^(\d{1,}.)+", claim)
+                if index_re is not None:
+                    indices.append(index_re.group())
         
         return indices
 
