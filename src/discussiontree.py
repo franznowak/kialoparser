@@ -14,10 +14,6 @@ class DiscussionTree():
         last_index = re.search(r"^(\d+.)+", title_claim).group()
         stance = None
         content = re.match(r"^(\d+.)+ *(.*)", title_claim).group(2)
-        if filename.endswith('2629.txt'):
-            debug = True
-        else:
-            debug = False
         for claim in self.claims:
             if re.search(r"^(\d+.)+", claim) is None:
                 continue
