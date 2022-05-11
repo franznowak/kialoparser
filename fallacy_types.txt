@@ -1,19 +1,34 @@
-fallacy
 false generalization
 ad hominem
 ad populum
 strawman
 straw man
 false causality
-circular rasoning
+circular (reasoning|argument)
 appeal to authority
 appeal to emotion
+appeal to tradition
 from ignorance
 fallacy of relevance
 deductive fallacy
 intentional fallacy
 fallacy of extension
 false dichotomy
+false dilemma
+undistributed middle
 fallacy of credibility
 equivocation
 naturalistic fallacy
+intentionality
+slippery slope
+begging the question
+false analogy
+post hoc ergo propter hoc
+red herring
+ignoratio elenchi
+tu quoque
+poisoning the well
+no true scotsman
+reification
+speial pleading
+fallacy
