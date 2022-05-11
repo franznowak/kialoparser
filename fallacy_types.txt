@@ -4,7 +4,8 @@ ad populum
 strawman
 straw man
 false causality
-circular (reasoning|argument)
+circular reasoning
+circular argument
 appeal to authority
 appeal to emotion
 appeal to tradition
