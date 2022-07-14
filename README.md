@@ -2,6 +2,13 @@
 
 A module for parsing exported discussion files from https://www.kialo.com/.
 
+### Installing dependencies:
+
+Run the following from the project root:
+```
+pip install -r requirements.txt
+```
+
 ### Downloading a debate:
 
 For instructions on how to download discussions from Kialo see [Exporting a Discussion - Kialo Help Centre](https://support.kialo.com/hc/en-us/articles/115003884449-Exporting-a-Discussion).
